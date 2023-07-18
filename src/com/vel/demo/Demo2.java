@@ -1,23 +1,33 @@
 package com.vel.demo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Demo2 {
 			
 		public static void main(String[] args) {
 			
-			ArrayList al = new ArrayList();
-			
-			al.add(62);
-			al.add("Pune");
-			al.add("Abad");
-			al.add("Pune");
-			al.add(null);
-			al.add(62);
-			al.add(null);
-			al.remove(4);
-			
-			System.out.println(al);
+			ArrayList<Integer> list1 = new ArrayList<Integer>();
+
+			list1.add(15);
+			list1.add(25);
+			list1.add(35);
+
+			ArrayList<Integer> list2 = new ArrayList<Integer>();
+
+			list2.add(65);
+			list2.add(65);
+			list2.add(65);
+
+			list1.addAll(list2);
+
+			for(int x: list1){
+
+			System.out.println(x);
+
+				
+			}
+		
 	}
 
 }
