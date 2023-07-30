@@ -18,12 +18,12 @@ public class Demo3 {
 				System.out.println(i);
 			}
 	    }
-
 	}
 	
 	public static void main(String[] args) {
 		
 		Demo3 d3 = new Demo3();
+		System.out.println("Welcome to the Even Odd Number");
 		d3.evenNumber();
 		d3.oddNumber();
 			
