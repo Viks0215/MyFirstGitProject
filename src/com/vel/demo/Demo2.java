@@ -14,7 +14,7 @@ public class Demo2 {
 			list1.add(35);
 			
 			System.out.println("Printing 0 to 15");
-			for(int i=0; i<15; i++) {
+			for(int i=0; i<20; i++) {
 				System.out.println(i);
 			}
 
